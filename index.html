@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Elektro J&P - profesjonalne usługi elektryczne. Instalacje elektryczne, systemy oświetleniowe, inteligentny dom, awarie i naprawy. Działamy w Dębnie i okolicach.">
+    <meta name="keywords" content="elektryk, instalacje elektryczne, usługi elektryczne, Dębno, Głogów Małopolski, Podkarpacie, inteligentny dom, awarie elektryczne, oświetlenie LED">
+    <meta name="author" content="Elektro J&P">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.elektro-jp.pl/">
+    <meta property="og:title" content="Elektro J&P - Profesjonalne Usługi Elektryczne">
+    <meta property="og:description" content="Kompleksowe usługi elektryczne w domach, mieszkaniach i obiektach przemysłowych. Instalacje elektryczne, naprawy, rozdzielnie, inteligentny dom.">
+    <meta property="og:image" content="https://www.elektro-jp.pl/img/logo.jpg">
+
+    <title>Elektro J&P - Profesjonalne Usługi Elektryczne w Dębnie i okolicach</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Efekty tła -->
+    <div class="bg-circuit"></div>
+    <div class="particles" id="particles"></div>
+    
+    <!-- Nagłówek -->
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <div class="logo-icon"></div>
+                <div class="logo-text">Elektro<span>J&P</span></div>
+            </div>
+            
+            <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Menu mobilne">
+                <i class="fas fa-bars"></i>
+            </button>
+            
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Strona Główna</a></li>
+                <li><a href="#services" class="nav-link">Usługi</a></li>
+                <li><a href="#about" class="nav-link">O Nas</a></li>
+                <li><a href="#contact" class="nav-link">Kontakt</a></li>
+            </ul>
+            
+            <div class="header-contact">
+                <div class="header-phone">
+                    <i class="fas fa-phone-alt"></i>
+                    +48 730 706 965
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Sekcja Hero -->
+    <section class="hero" id="home">
+        <div class="floating-element floating-1"></div>
+        <div class="floating-element floating-2"></div>
+        
+        <div class="container hero-container">
+            <div class="hero-content animate-fade-left">
+                <div class="hero-tagline">Profesjonalne Usługi Elektryczne</div>
+                <h1 class="hero-title">Innowacyjne <span>Rozwiązania Elektryczne</span> dla Twojego Domu i Biznesu</h1>
+                <p class="hero-description">Oferujemy kompleksowe usługi elektryczne z wykorzystaniem nowoczesnych technologii, zapewniając najwyższy standard bezpieczeństwa i efektywności energetycznej.</p>
+                <a href="#contact" class="hero-cta">
+                    <i class="fas fa-bolt"></i>
+                    Skontaktuj się z nami
+                </a>
+            </div>
+            
+            <div class="hero-image animate-fade-right">
+                <div class="hero-image-wrapper">
+                    <img src="images/elektryk-praca.jpg" alt="Profesjonalne usługi elektryczne - elektryk przy pracy">
+                    <div class="hero-image-overlay"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sekcja Usług -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header animate-fade-up">
+                <span class="section-subtitle-above">Co oferujemy</span>
+                <h2 class="section-title">Nasze Usługi</h2>
+                <p class="section-subtitle">Oferujemy kompleksowe rozwiązania elektryczne dla domów, mieszkań i obiektów przemysłowych.</p>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-card animate-fade-up delay-100">
+                    <div class="service-icon">
+                        <i class="fas fa-plug"></i>
+                    </div>
+                    <h3 class="service-title">Instalacje Elektryczne</h3>
+                    <p class="service-description">Wykonujemy kompleksowe instalacje elektryczne w nowych budynkach oraz modernizacje istniejących systemów.</p>
+                    <ul class="service-list">
+                        <li>Instalacje w domach jednorodzinnych</li>
+                        <li>Instalacje w mieszkaniach</li>
+                        <li>Instalacje w obiektach przemysłowych</li>
+                        <li>Projekty instalacji elektrycznych</li>
+                        <li>Pomiary elektryczne</li>
+                    </ul>
+                </div>
+                
+                <div class="service-card animate-fade-up delay-200">
+                    <div class="service-icon">
+                        <i class="far fa-lightbulb"></i>
+                    </div>
+                    <h3 class="service-title">Systemy Oświetleniowe</h3>
+                    <p class="service-description">Projektujemy i montujemy nowoczesne systemy oświetleniowe wewnętrzne i zewnętrzne.</p>
+                    <ul class="service-list">
+                        <li>Oświetlenie LED</li>
+                        <li>Oświetlenie dekoracyjne</li>
+                        <li>Oświetlenie zewnętrzne</li>
+                        <li>Oświetlenie przemysłowe</li>
+                        <li>Sterowanie oświetleniem</li>
+                    </ul>
+                </div>
+                
+                <div class="service-card animate-fade-up delay-300">
+                    <div class="service-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3 class="service-title">Naprawy i Awarie</h3>
+                    <p class="service-description">Szybko i skutecznie reagujemy na awarie elektryczne, minimalizując niedogodności.</p>
+                    <ul class="service-list">
+                        <li>Diagnoza i usuwanie awarii</li>
+                        <li>Wymiana wadliwych elementów</li>
+                        <li>Naprawa uszkodzonych instalacji</li>
+                        <li>Wymiana tablicy bezpiecznikowej</li>
+                        <li>Rozwiązywanie problemów z zasilaniem</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="services-grid" style="margin-top: 40px;">
+                <div class="service-card animate-fade-up delay-100">
+                    <div class="service-icon">
+                        <i class="fas fa-network-wired"></i>
+                    </div>
+                    <h3 class="service-title">Rozdzielnie Elektryczne</h3>
+                    <p class="service-description">Projektujemy i budujemy profesjonalne rozdzielnie elektryczne dla domów i firm.</p>
+                    <ul class="service-list">
+                        <li>Projektowanie i montaż rozdzielni</li>
+                        <li>Modernizacja istniejących rozdzielni</li>
+                        <li>Wybór odpowiednich zabezpieczeń</li>
+                        <li>Rozdzielnie dla obiektów przemysłowych</li>
+                        <li>Rozbudowa istniejących rozdzielni</li>
+                    </ul>
+                </div>
+                
+                <div class="service-card animate-fade-up delay-200">
+                    <div class="service-icon">
+                        <i class="fas fa-industry"></i>
+                    </div>
+                    <h3 class="service-title">Instalacje przemysłowe</h3>
+                    <p class="service-description">Wykonujemy kompleksowe instalacje dla sektora przemysłowego zgodne z normami bezpieczeństwa.</p>
+                    <ul class="service-list">
+                        <li>Instalacje siłowe</li>
+                        <li>Instalacje zasilające maszyny i urządzenia</li>
+                        <li>Linie produkcyjne</li>
+                        <li>Systemy zasilania awaryjnego</li>
+                        <li>Instalacje w obiektach specjalnych</li>
+                    </ul>
+                </div>
+                
+                <div class="service-card animate-fade-up delay-300">
+                    <div class="service-icon">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <h3 class="service-title">Inteligentny dom</h3>
+                    <p class="service-description">Instalujemy nowoczesne systemy inteligentnego domu, zwiększając komfort i efektywność energetyczną.</p>
+                    <ul class="service-list">
+                        <li>Sterowanie oświetleniem</li>
+                        <li>Sterowanie roletami i żaluzjami</li>
+                        <li>Systemy alarmowe</li>
+                        <li>Sterowanie ogrzewaniem</li>
+                        <li>Integracja z asystentami głosowymi</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- O Nas -->
+    <section class="about" id="about">
+        <div class="floating-element floating-1"></div>
+        <div class="floating-element floating-2"></div>
+        
+        <div class="container about-container">
+            <div class="about-image animate-fade-left">
+                <div class="about-image-wrapper">
+                    <img src="images/elektro-jp-team.jpg" alt="Zespół Elektro J&P - profesjonalni elektrycy">
+                    <div class="about-image-overlay"></div>
+                </div>
+            </div>
+            
+            <div class="about-content animate-fade-right">
+                <span class="about-tagline">Poznaj naszą firmę</span>
+                <h2 class="about-title">O Firmie <span>Elektro J&P</span></h2>
+                <p class="about-description">Jesteśmy dynamicznie rozwijającą się firmą elektroinstalacyjną, która łączy wieloletnie doświadczenie z najnowszymi technologiami. Nasz zespół składa się z wykwalifikowanych elektryków, którzy posiadają niezbędne uprawnienia i certyfikaty.</p>
+                <p class="about-description">Stawiamy na profesjonalizm, bezpieczeństwo i zadowolenie klienta. Dzięki indywidualnemu podejściu do każdego projektu, jesteśmy w stanie zaoferować rozwiązania idealnie dopasowane do potrzeb naszych klientów.</p>
+                
+                <div class="stats">
+                    <div class="stat-item animate-fade-up delay-100">
+                        <div class="stat-number">10</div>
+                        <div class="stat-label">Lat Doświadczenia</div>
+                    </div>
+                    
+                    <div class="stat-item animate-fade-up delay-200">
+                        <div class="stat-number">500</div>
+                        <div class="stat-label">Ukończonych Projektów</div>
+                    </div>
+                    
+                    <div class="stat-item animate-fade-up delay-300">
+                        <div class="stat-number">100</div>
+                        <div class="stat-label">Zadowolonych Klientów</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Kontakt -->
+    <section class="contact" id="contact">
+        <div class="floating-element floating-1"></div>
+        <div class="floating-element floating-2"></div>
+        
+        <div class="container">
+            <div class="section-header animate-fade-up">
+                <span class="section-subtitle-above">Kontakt</span>
+                <h2 class="section-title">Skontaktuj Się Z Nami</h2>
+                <p class="section-subtitle">Jesteśmy do Państwa dyspozycji. Zadzwoń lub napisz, aby uzyskać bezpłatną wycenę lub skonsultować swoje potrzeby.</p>
+            </div>
+            
+            <div class="contact-container">
+                <div class="contact-info animate-fade-left">
+                    <h3 class="contact-title">Dane Kontaktowe</h3>
+                    <p class="contact-description">Skorzystaj z poniższych danych, aby się z nami skontaktować. Odpowiemy na Twoje pytania najszybciej jak to możliwe.</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-mobile-alt"></i>
+                            </div>
+                            <div class="contact-text">
+                                <div class="contact-label">Telefon</div>
+                                <div class="contact-value">+48 730 706 965</div>
+                                <div class="contact-value">+48 721 748 628</div>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-text">
+                                <div class="contact-label">Email</div>
+                                <div class="contact-value">szklannypatrycja@gmail.com</div>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="far fa-clock"></i>
+                            </div>
+                            <div class="contact-text">
+                                <div class="contact-label">Godziny Pracy</div>
+                                <div class="contact-value">Poniedziałek - Piątek: 8:00-18:00</div>
+                                <div class="contact-value">Sobota: 9:00-14:00</div>
+                                <div class="contact-value">Niedziela: Zamknięte</div>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-text">
+                                <div class="contact-label">Adres</div>
+                                <div class="contact-value">Dębno 149, 37-305 Dębno</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="https://facebook.com/elektrojp" class="social-link" aria-label="Facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="https://instagram.com/elektro_jp" class="social-link" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="contact-form animate-fade-right">
+                    <form id="contactForm" action="https://formsubmit.co/szklannypatrycja@gmail.com" method="POST">
+                        <input type="hidden" name="_subject" value="Nowe zapytanie ze strony Elektro J&P">
+                        <input type="hidden" name="_template" value="table">
+                        <input type="hidden" name="_next" value="https://elektro-jp.pl/dziekujemy.html">
+                        
+                        <div class="form-group">
+                            <label for="name" class="form-label">Imię i Nazwisko</label>
+                            <input type="text" id="name" name="name" class="form-control" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" id="email" name="email" class="form-control" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone" class="form-label">Telefon</label>
+                            <input type="tel" id="phone" name="phone" class="form-control">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message" class="form-label">Wiadomość</label>
+                            <textarea id="message" name="message" class="form-control" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="form-submit">
+                            <i class="fas fa-paper-plane"></i>
+                            Wyślij Wiadomość
+                        </button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="map-container animate-fade-up">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10315.094444992441!2d22.22429057555574!3d49.84118979371691!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473c914555555555%3A0x4e3333333333333!2zRMSZYm5vIDE0OSwgMzctMzA1IETEmWJubw!5e0!3m2!1spl!2spl!4v1631448751232!5m2!1spl!2spl" allowfullscreen="" loading="lazy"></iframe>
+                <div class="map-overlay"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stopka -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <h3>O Firmie</h3>
+                    <p>Elektro J&P to profesjonalna firma elektroinstalacyjna działająca na terenie województwa podkarpackiego. Specjalizujemy się w kompleksowych usługach elektrycznych dla klientów indywidualnych i firm.</p>
+                    <div class="social-links">
+                        <a href="https://facebook.com/elektrojp" class="social-link" aria-label="Facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="https://instagram.com/elektro_jp" class="social-link" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Nasze Usługi</h3>
+                    <ul class="footer-links">
+                        <li><a href="#services">Instalacje elektryczne</a></li>
+                        <li><a href="#services">Systemy oświetleniowe</a></li>
+                        <li><a href="#services">Naprawy elektryczne</a></li>
+                        <li><a href="#services">Rozdzielnie elektryczne</a></li>
+                        <li><a href="#services">Inteligentny dom</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Kontakt</h3>
+                    <div class="footer-contact-item">
+                        <span class="footer-contact-icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </span>
+                        <span>+48 730 706 965</span>
+                    </div>
+                    <div class="footer-contact-item">
+                        <span class="footer-contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </span>
+                        <span>szklannypatrycja@gmail.com</span>
+                    </div>
+                    <div class="footer-contact-item">
+                        <span class="footer-contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </span>
+                        <span>Dębno 149, 37-305 Dębno</span>
+                    </div>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Godziny Pracy</h3>
+                    <div class="footer-contact-item">
+                        <span class="footer-contact-icon">
+                            <i class="far fa-clock"></i>
+                        </span>
+                        <span>Poniedziałek - Piątek: 8:00-18:00</span>
+                    </div>
+                    <div class="footer-contact-item">
+                        <span class="footer-contact-icon">
+                            <i class="far fa-clock"></i>
+                        </span>
+                        <span>Sobota: 9:00-14:00</span>
+                    </div>
+                    <div class="footer-contact-item">
+                        <span class="footer-contact-icon">
+                            <i class="far fa-clock"></i>
+                        </span>
+                        <span>Niedziela: Zamknięte</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                &copy; 2025 Elektro J&P. Wszelkie prawa zastrzeżone. | Projekt i wykonanie: Elektro J&P
+            </div>
+        </div>
+    </footer>
+
+    <!-- Przycisk do góry -->
+    <a href="#" class="back-to-top" id="backToTop" aria-label="Przewiń do góry">
+        <i class="fas fa-chevron-up"></i>
+    </a>
+
+    <!-- Schema.org dla biznesu lokalnego -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ElectricalBusiness",
+        "name": "Elektro J&P",
+        "image": "https://www.elektro-jp.pl/images/logo.jpg",
+        "@id": "https://www.elektro-jp.pl",
+        "url": "https://www.elektro-jp.pl",
+        "telephone": "+48730706965",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Dębno 149",
+            "addressLocality": "Dębno",
+            "postalCode": "37-305",
+            "addressRegion": "Podkarpackie",
+            "addressCountry": "PL"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 49.841190,
+            "longitude": 22.224291
+        },
+        "openingHoursSpecification": [
+            {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [
+                    "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday",
+                    "Friday"
+                ],
+                "opens": "08:00",
+                "closes": "18:00"
+            },
+            {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": "Saturday",
+                "opens": "09:00",
+                "closes": "14:00"
+            }
+        ],
+        "sameAs": [
+            "https://www.facebook.com/elektrojp",
+            "https://www.instagram.com/elektro_jp"
+        ],
+        "priceRange": "$$",
+        "servesCuisine": "Usługi elektryczne"
+    }
+    </script>
+
+    <!-- Custom JavaScript -->
+    <script src="js/scripts.js"></script>
+</body>
+</html>
